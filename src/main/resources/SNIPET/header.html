@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- Enlace a Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+        .logo-text {
+            font-family: 'Lobster', cursive; /* Utiliza el nombre de la fuente que seleccionaste */
+            /* Otros estilos si es necesario */
+        }
+        
+        .logo {
+            text-align: center;
+            margin-bottom: 20px; /* Ajusta el margen inferior según sea necesario */
+        }
+
+        .navbar {
+            background-color: #6c757d; /* Color de fondo de la barra de navegación */
+            height: 60px; /* Altura de la barra de navegación */
+        }
+
+        .navbar-nav {
+            width: 100%; /* Ocupar todo el ancho */
+            text-align: center; /* Centrar las opciones de navegación */
+        }
+
+        .navbar-nav .nav-item {
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        /* Eliminar márgenes predeterminados del contenedor fluido */
+        .container-fluid {
+            padding-right: 0;
+            padding-left: 0;
+        }
+    </style>
+
+</head>
+<body>
+
+
+
+
+
+<div class="container-fluid"> <!-- Cambiado a container-fluid -->
+    <div class="logo">
+        <h1 class="logo-text" style="color: brown;">El Rincon Dulce</h1>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <!-- Botón del Navbar -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Opciones de navegación -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Opción 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Opción 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Opción 3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Opción 4</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+
+
+
+<!-- Enlace a Bootstrap JS y jQuery (si es necesario) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
